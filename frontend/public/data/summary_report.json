@@ -1,0 +1,234 @@
+{
+  "project": "Climate Trend Analyzer Backend",
+  "summary": {
+    "rows": 720,
+    "columns": 12,
+    "date_range": {
+      "start": "2010-01-01",
+      "end": "2024-12-01"
+    },
+    "regions": [
+      "East",
+      "North",
+      "South",
+      "West"
+    ],
+    "temperature_summary": {
+      "count": 720.0,
+      "mean": 26.911,
+      "std": 6.204,
+      "min": 13.3,
+      "25%": 21.858,
+      "50%": 26.905,
+      "75%": 31.925,
+      "max": 40.71
+    },
+    "rainfall_summary": {
+      "count": 720.0,
+      "mean": 99.668,
+      "std": 27.825,
+      "min": 14.12,
+      "25%": 79.252,
+      "50%": 98.005,
+      "75%": 120.665,
+      "max": 276.28
+    },
+    "co2_summary": {
+      "count": 720.0,
+      "mean": 395.721,
+      "std": 6.273,
+      "min": 384.59,
+      "25%": 390.44,
+      "50%": 395.84,
+      "75%": 401.142,
+      "max": 407.33
+    },
+    "sea_level_summary": {
+      "count": 720.0,
+      "mean": 25.343,
+      "std": 13.227,
+      "min": -0.6,
+      "25%": 13.91,
+      "50%": 25.4,
+      "75%": 36.45,
+      "max": 51.91
+    },
+    "missing_values_after_cleaning": {
+      "date": 0,
+      "region": 0,
+      "temperature_c": 0,
+      "rainfall_mm": 0,
+      "co2_ppm": 0,
+      "sea_level_mm": 0,
+      "year": 0,
+      "month": 0,
+      "quarter": 0,
+      "season": 0,
+      "temp_rolling_12": 0,
+      "rain_rolling_12": 0
+    }
+  },
+  "trend_metrics": {
+    "by_region": {
+      "East": {
+        "temperature_slope_per_month": 0.0279,
+        "rainfall_slope_per_month": -0.016,
+        "co2_slope_per_month": 0.121,
+        "sea_level_slope_per_month": 0.2506
+      },
+      "North": {
+        "temperature_slope_per_month": 0.0241,
+        "rainfall_slope_per_month": -0.0103,
+        "co2_slope_per_month": 0.1193,
+        "sea_level_slope_per_month": 0.2506
+      },
+      "South": {
+        "temperature_slope_per_month": 0.0257,
+        "rainfall_slope_per_month": -0.025,
+        "co2_slope_per_month": 0.1197,
+        "sea_level_slope_per_month": 0.2494
+      },
+      "West": {
+        "temperature_slope_per_month": 0.0216,
+        "rainfall_slope_per_month": -0.0066,
+        "co2_slope_per_month": 0.1211,
+        "sea_level_slope_per_month": 0.2495
+      }
+    },
+    "overall": {
+      "temperature_slope_per_month": 0.0248,
+      "rainfall_slope_per_month": -0.0145,
+      "co2_slope_per_month": 0.1203,
+      "sea_level_slope_per_month": 0.25
+    }
+  },
+  "anomaly_count": 0,
+  "forecast_preview": [
+    {
+      "date": "2025-01-01",
+      "forecast_temperature_c": 29.158
+    },
+    {
+      "date": "2025-02-01",
+      "forecast_temperature_c": 29.182
+    },
+    {
+      "date": "2025-03-01",
+      "forecast_temperature_c": 29.207
+    },
+    {
+      "date": "2025-04-01",
+      "forecast_temperature_c": 29.232
+    },
+    {
+      "date": "2025-05-01",
+      "forecast_temperature_c": 29.257
+    },
+    {
+      "date": "2025-06-01",
+      "forecast_temperature_c": 29.282
+    },
+    {
+      "date": "2025-07-01",
+      "forecast_temperature_c": 29.307
+    },
+    {
+      "date": "2025-08-01",
+      "forecast_temperature_c": 29.331
+    },
+    {
+      "date": "2025-09-01",
+      "forecast_temperature_c": 29.356
+    },
+    {
+      "date": "2025-10-01",
+      "forecast_temperature_c": 29.381
+    }
+  ],
+  "yearly_temperature_summary": [
+    {
+      "year": 2010,
+      "temperature_c": 24.254
+    },
+    {
+      "year": 2011,
+      "temperature_c": 24.758
+    },
+    {
+      "year": 2012,
+      "temperature_c": 25.021
+    },
+    {
+      "year": 2013,
+      "temperature_c": 25.445
+    },
+    {
+      "year": 2014,
+      "temperature_c": 25.807
+    },
+    {
+      "year": 2015,
+      "temperature_c": 26.375
+    },
+    {
+      "year": 2016,
+      "temperature_c": 26.56
+    },
+    {
+      "year": 2017,
+      "temperature_c": 27.238
+    },
+    {
+      "year": 2018,
+      "temperature_c": 27.267
+    },
+    {
+      "year": 2019,
+      "temperature_c": 27.59
+    },
+    {
+      "year": 2020,
+      "temperature_c": 27.616
+    },
+    {
+      "year": 2021,
+      "temperature_c": 28.416
+    },
+    {
+      "year": 2022,
+      "temperature_c": 28.484
+    },
+    {
+      "year": 2023,
+      "temperature_c": 29.482
+    },
+    {
+      "year": 2024,
+      "temperature_c": 29.345
+    }
+  ],
+  "seasonal_temperature_summary": [
+    {
+      "season": "Monsoon",
+      "temperature_c": 22.167
+    },
+    {
+      "season": "Post-Monsoon",
+      "temperature_c": 21.619
+    },
+    {
+      "season": "Summer",
+      "temperature_c": 33.097
+    },
+    {
+      "season": "Winter",
+      "temperature_c": 30.576
+    }
+  ],
+  "insights": [
+    "Temperature trend slope above zero suggests long-term warming in the dataset.",
+    "Rainfall trend should be interpreted along with seasonality because rainfall is highly seasonal.",
+    "Anomalies highlight unusual months that deserve additional investigation.",
+    "CO2 and sea level variables usually move upward in the simulated climate-change scenario."
+  ]
+}
