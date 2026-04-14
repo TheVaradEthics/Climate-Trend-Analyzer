@@ -149,16 +149,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots (Add your own)
-
-| Feature           | Image                      |
-| ----------------- | -------------------------- |
-| Trend Graph       | ![](images/temp_trend.png) |
-| Anomaly Detection | ![](images/anomaly.png)    |
-| Dashboard         | ![](images/dashboard.png)  |
-
----
-
 ## 🚀 Future Improvements
 
 * Add ARIMA forecasting
@@ -189,8 +179,9 @@ npm run dev
 
 ## 👨‍💻 Author
 
-**Your Name**
-GitHub: https://github.com/your-username
+**Varad Payghan**
+
+GitHub: https://github.com/TheVaradEthics
 
 ---
 
